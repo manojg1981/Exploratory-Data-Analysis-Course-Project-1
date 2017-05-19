@@ -32,7 +32,7 @@ with(subsetConsumptionData, {
                 lines(subMetering2~subsetConsumptionData$datetime,col='Red')
                 lines(subMetering3~subsetConsumptionData$datetime,col='Blue')
 })
-legend("topright", col=c("black", "red", "blue"), lty=1, lwd=2, 
+legend("topright", col=c("black", "red", "blue"), lty=1, lwd=3, 
        legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
 
 ## Saving to file
